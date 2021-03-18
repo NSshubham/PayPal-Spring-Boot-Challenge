@@ -1,0 +1,2 @@
+INSERT INTO EMPLOYEEDTO VALUES (1,'Shubham','Patel','02/10/1995','J.P. Nagar','Adhartal','Jabalpur','M.P','India','482004');
+INSERT INTO EMPLOYEEDTO VALUES (2,'abc','xyz','01/01/2000','New Ram Nagar','Adhartal','Jabalpur','M.P','India','482004');

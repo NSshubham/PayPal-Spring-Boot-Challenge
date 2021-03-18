@@ -1,0 +1,74 @@
+{
+  "tags": "javax.persistence.Entity" ,
+  "title": "Employee resource",
+  "description": "Employee resource object",
+  "type": "object",
+  "properties": {
+    "id": {
+      "tags": "javax.persistence.Id",
+      "description": "employee id",
+      "type": "integer"
+    },
+    "first_name": {
+      "description": "first name",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "last_name": {
+      "description": "last name",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "dob": {
+      "description": "date of Birth",
+      "type": "string"
+    },
+    "line1": {
+      "description": "line 1 of an address",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 300
+    },
+    "line2": {
+      "description": "line 2 of an address",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 300
+    },
+    "city": {
+      "description": "city of residence",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 300
+    },
+    "state": {
+      "description": "state of employee",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 300
+    },
+    "country": {
+      "description": "country of residence",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 300
+    },
+    "zip_code": {
+      "description": "zipcode of address",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 300
+    }
+  },
+  "required": [
+    "first_name",
+    "last_name",
+    "line1",
+    "city",
+    "state",
+    "country",
+    "zip_code"
+  ]
+}
